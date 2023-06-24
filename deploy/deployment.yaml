@@ -18,10 +18,11 @@ spec:
         app: accounts
     spec:
       containers:
-      - image: 
+      - image: IMAGE_NAME_HERE
         name: accounts
         resources: {}
-        env:        
+
+        env:
           - name: DATABASE_HOST
             value: postgresql
           - name: DATABASE_NAME
